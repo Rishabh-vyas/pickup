@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#076C3A"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="60dp"
+        android:padding="100dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <!--        image ka hai ye -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/img1"
+                                android:paddingLeft="30dp"
+                                />
+
+
+                        </LinearLayout>
+
+                <!--        ye user input filled -->
+                        <LinearLayout
+                            android:id="@+id/l2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Full Name"
+                                android:textSize="20dp"
+                                android:paddingLeft="30dp"
+                                android:textColor="#076C3A"
+                                android:textStyle="bold"/>
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/img2"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:hint="Kuldeep Choudhary"
+                                android:textColor="#076C3A"
+                                android:textStyle="bold"
+                                android:paddingLeft="20dp"
+                                android:textColorHint="#076C3A"
+                                android:inputType="text"
+
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="E-mail"
+                                android:textSize="20dp"
+                                android:paddingLeft="30dp"
+                                android:textColor="#076C3A"
+                                android:layout_marginTop="20dp"
+                                android:textStyle="bold"/>
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/img2"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:hint="updrahul@gmail.com"
+                                android:textColor="#076C3A"
+                                android:textStyle="bold"
+                                android:paddingLeft="20dp"
+                                android:textColorHint="#076C3A"
+                                android:inputType="textEmailAddress"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Paasword"
+                                android:textSize="20dp"
+                                android:paddingLeft="30dp"
+                                android:textColor="#076C3A"
+                                android:layout_marginTop="20dp"
+                                android:textStyle="bold"/>
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/img2"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:hint="**********"
+                                android:textColor="#076C3A"
+                                android:textStyle="bold"
+                                android:paddingLeft="20dp"
+                                android:textColorHint="#076C3A"
+                                android:inputType="textPassword"
+
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Confirm Paasword"
+                                android:textSize="20dp"
+                                android:paddingLeft="30dp"
+                                android:textColor="#076C3A"
+                                android:layout_marginTop="20dp"
+                                android:textStyle="bold"/>
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:background="@drawable/img2"
+                                android:layout_marginTop="9dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginRight="30dp"
+                                android:hint="**********"
+                                android:textColor="#076C3A"
+                                android:textStyle="bold"
+                                android:paddingLeft="20dp"
+                                android:textColorHint="#076C3A"
+                                android:inputType="textPassword"
+
+                                />
+                        </LinearLayout>
+
+                <!--        Next button hai-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="40dp"
+                            android:gravity="center">
+
+                           <androidx.appcompat.widget.AppCompatButton
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Next"
+                               android:background="@drawable/btn"
+                               android:textColor="#FFF"
+
+                               />
+                        </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
