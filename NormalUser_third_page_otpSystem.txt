@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NormalUser_Third"
+    android:background="#076C3A"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="60dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img3"
+                    android:layout_marginLeft="20dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OTP"
+                    android:textSize="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#076C3A"
+
+                    />
+
+<!--                297000-->
+<!--                252000-->
+<!--                45000-->
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+
+                <EditText
+                    android:layout_height="50dp"
+                    android:background="@drawable/img4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="number"
+                    android:hint="1"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#076C3A"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/img4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="number"
+                    android:hint="2"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#076C3A"
+                    />
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/img4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="number"
+                    android:hint="3"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#076C3A"
+                    />
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/img4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="number"
+                    android:hint="4"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#076C3A"
+                    />
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/img4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="number"
+                    android:hint="5"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#076C3A"
+                    />
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/img4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="number"
+                    android:hint="6"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColorHint="#076C3A"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resend OTP"
+                    android:textSize="15dp"
+                    android:textColor="#076C3A"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="20dp"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   +   Create New Account   "
+                    android:textColor="#FFF"
+                    android:background="@drawable/btn"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
